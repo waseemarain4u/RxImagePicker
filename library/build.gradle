@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: "com.jfrog.bintray"
 
 def siteUrl = 'https://github.com/Frederikos/RxImagePicker'
@@ -45,7 +45,7 @@ android {
     }
 }
 
-install {
+/*install {
     repositories.mavenInstaller {
         pom {
             project {
@@ -74,7 +74,7 @@ install {
             }
         }
     }
-}
+}*/
 
 dependencies {
     compile 'com.android.support:appcompat-v7:25.3.0'
